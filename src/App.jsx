@@ -1,35 +1,17 @@
-import React, { useEffect, useState } from 'react'
-import styles from './style'
-import { Navbar , Hero , Stats ,Business ,CardDeal ,Testimonials , Clients , CTA ,Footer, Billing } from './components'
-import { motion } from 'framer-motion'
+import React, { useEffect, useState } from "react";
+import styles from "./style";
+import {
+  Navbar,
+  Stats,
+  Hero,
+  CTA,
+  Footer,
+  About,
+  Services,
+} from "./components";
+import { motion } from "framer-motion";
 
-const App = () =>  {
-  // const [mousePosition , setMousePosition] = useState({
-  //   x:0,
-  //   y:0
-  // });
-  // console.log(mousePosition);
-  // useEffect(()=>{
-  //   const mouseMove = (e) => {
-  //     setMousePosition({
-  //       x: e.clientX,
-  //       y: e.clientY,
-  //     })
-
-  //   }
-  //   window.addEventListener("mousemove" , mouseMove)
-
-  //   return ()=>{
-  //     window.removeEventListener("mousemove" , mouseMove)
-  //   }
-  // },[])
-  
-  // const variants = {
-  //   default: {
-  //     x:mousePosition.x - 24,
-  //     y:mousePosition.y - 24,
-  //   }
-  // }
+const App = () => {
   return (
     <div className="bg-primary w-full overflow-hidden">
       <div className={`${styles.paddingX} ${styles.flexCenter}`}>
@@ -43,20 +25,17 @@ const App = () =>  {
           <Hero />
         </div>
       </div>
-      
+
       <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
         <div className={`${styles.boxWidth}`}>
           <Stats />
-          <Business />
-          <Billing/>
-          <CardDeal />
-          <Testimonials />
-          <Clients />
+          <About />
+          <Services />
           <CTA />
           <Footer />
         </div>
       </div>
     </div>
-);
-}
-export default App
+  );
+};
+export default App;

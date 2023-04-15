@@ -1,4 +1,12 @@
-import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets";
+import {
+  instagram,
+  linkedin,
+  twitter,
+  web,
+  digital,
+  content,
+  graphic,
+} from "../assets";
 
 export const navLinks = [
   {
@@ -6,75 +14,55 @@ export const navLinks = [
     title: "Home",
   },
   {
-    id: "features",
-    title: "Features",
+    id: "about",
+    title: "About",
   },
   {
-    id: "product",
-    title: "Product",
+    id: "services",
+    title: "Services",
   },
   {
-    id: "clients",
-    title: "Clients",
-  },
-];
-
-export const features = [
-  {
-    id: "feature-1",
-    icon: star,
-    title: "Rewards",
-    content:
-      "The best credit cards offer some tantalizing combinations of promotions and prizes",
-  },
-  {
-    id: "feature-2",
-    icon: shield,
-    title: "100% Secured",
-    content:
-      "We take proactive steps make sure your information and transactions are secure.",
-  },
-  {
-    id: "feature-3",
-    icon: send,
-    title: "Balance Transfer",
-    content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
+    id: "terms",
+    title: "Terms",
   },
 ];
 
 export const feedback = [
   {
+    id: "feedback-0",
+    content: "Create Stunning websites for your online business.",
+    name: "Web Development",
+
+    img: web,
+  },
+  {
     id: "feedback-1",
-    content:
-      "Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.",
-    name: "Herman Jensen",
-    title: "Founder & Leader",
-    img: people01,
+    content: "Broadcast your business with our digital marketing team.",
+    name: "Digital Marketing",
+
+    img: digital,
   },
   {
     id: "feedback-2",
-    content:
-      "Money makes your life easier. If you're lucky to have it, you're lucky.",
-    name: "Steve Mark",
-    title: "Founder & Leader",
-    img: people02,
+    content: " Let our experts glide in and take over with creativity.",
+    name: "Content Creation",
+
+    img: content,
   },
   {
     id: "feedback-3",
-    content:
-      "It is usually people in the money business, finance, and international trade that are really rich.",
-    name: "Kenn Gallagher",
-    title: "Founder & Leader",
-    img: people03,
+    content: "Let us animate your imagnation into a product.",
+    name: "Graphic Designing",
+
+    img: graphic,
   },
 ];
 
 export const stats = [
   {
     id: "stats-1",
-    title: "User Active",
-    value: "3800+",
+    title: "Technical Experts",
+    value: "20+",
   },
   {
     id: "stats-2",
@@ -83,8 +71,8 @@ export const stats = [
   },
   {
     id: "stats-3",
-    title: "Transaction",
-    value: "$230M+",
+    title: "Technologies",
+    value: "10+",
   },
 ];
 
@@ -94,23 +82,23 @@ export const footerLinks = [
     links: [
       {
         name: "Content",
-        link: "https://www.hoobank.com/content/",
+        link: "",
       },
       {
         name: "How it Works",
-        link: "https://www.hoobank.com/how-it-works/",
+        link: "",
       },
       {
         name: "Create",
-        link: "https://www.hoobank.com/create/",
+        link: "",
       },
       {
         name: "Explore",
-        link: "https://www.hoobank.com/explore/",
+        link: "",
       },
       {
         name: "Terms & Services",
-        link: "https://www.hoobank.com/terms-and-services/",
+        link: "",
       },
     ],
   },
@@ -119,23 +107,23 @@ export const footerLinks = [
     links: [
       {
         name: "Help Center",
-        link: "https://www.hoobank.com/help-center/",
+        link: "",
       },
       {
         name: "Partners",
-        link: "https://www.hoobank.com/partners/",
+        link: "",
       },
       {
         name: "Suggestions",
-        link: "https://www.hoobank.com/suggestions/",
+        link: "",
       },
       {
         name: "Blog",
-        link: "https://www.hoobank.com/blog/",
+        link: "",
       },
       {
         name: "Newsletters",
-        link: "https://www.hoobank.com/newsletters/",
+        link: "",
       },
     ],
   },
@@ -144,11 +132,11 @@ export const footerLinks = [
     links: [
       {
         name: "Our Partner",
-        link: "https://www.hoobank.com/our-partner/",
+        link: "",
       },
       {
         name: "Become a Partner",
-        link: "https://www.hoobank.com/become-a-partner/",
+        link: "",
       },
     ],
   },
@@ -158,35 +146,16 @@ export const socialMedia = [
   {
     id: "social-media-1",
     icon: instagram,
-    link: "https://www.instagram.com/hrushi_18",
+    link: "https://www.instagram.com/",
   },
   {
     id: "social-media-3",
     icon: twitter,
-    link: "https://www.twitter.com/BorhadeHrushi",
+    link: "https://www.twitter.com/",
   },
   {
     id: "social-media-4",
     icon: linkedin,
-    link: "https://www.linkedin.com/hrushikesh-borhade-9b742b1bb/",
+    link: "https://www.linkedin.com/",
   },
 ];
-
-export const clients = [
-  {
-    id: "client-1",
-    logo: airbnb,
-  },
-  {
-    id: "client-2",
-    logo: binance,
-  },
-  {
-    id: "client-3",
-    logo: coinbase,
-  },
-  {
-    id: "client-4",
-    logo: dropbox,
-  },
-]

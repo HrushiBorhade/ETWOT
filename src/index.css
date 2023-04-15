@@ -145,18 +145,3 @@ body::-webkit-cursor {
   background: rgba(255, 255, 255, 0.6);
   filter: blur(750px);
 }
-
-/* .cursor{
-  width: 48px;
-  height: 48px;
-  border: 4px solid #646a6a;
-  background: rgba(0,0,0,0.1);
-  border-radius: 50%;
-  position: fixed;
-  top:0;
-  left:0;
-  transform: translate(-50% , -50%);
-  z-index: 10;
-  pointer-events: none;
-
-} */
